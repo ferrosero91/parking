@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'm84yah=vj(93u9lltvwer+m+-plk_2r1!!($^$)i-#y2+w!ng@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True  # Activa DEBUG para desarrollo local
+DEBUG = False  # Activa DEBUG para desarrollo local
 
 # Configuración para Render y Clever Cloud
 ALLOWED_HOSTS = []
