@@ -26,7 +26,7 @@ SECRET_KEY = 'm84yah=vj(93u9lltvwer+m+-plk_2r1!!($^$)i-#y2+w!ng@'
 DEBUG = False  # Activa DEBUG para desarrollo local
 
 # Configuración para Render y Clever Cloud
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['solupark.shop', 'www.solupark.shop']
 
 RENDER_EXTERNAL_HOSTNAME = os.environ.get('RENDER_EXTERNAL_HOSTNAME')
 if RENDER_EXTERNAL_HOSTNAME:
